@@ -18,5 +18,6 @@ i=0
 j=0
 while i<10:  
     print(f'current number {i} Previous number {j} Sum: {i+j}')
-    i=i+1
+    # i=i+1
+    i+=1  #both can be possible
     j=i-1
